@@ -1,0 +1,19 @@
+{
+    "name": "c-prepreproc",
+    "displayName": "C/C++ Pre-PreProc",
+    "description": "Super C/C++ Pre-Preprocessor",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [{
+            "language": "c-prepreproc",
+            "scopeName": "source.c-prepreproc",
+            "path": "./syntaxes/c-prepreproc.tmLanguage.json"
+        }]
+    }
+}
